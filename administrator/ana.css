@@ -1,0 +1,17 @@
+.analysis{
+    /* border:1px solid; */
+    width:1000px;
+    float:left;
+    margin-left:130px;
+    padding-left: 40px;  
+}
+.analysis table{
+    /* border:1px solid; */
+    width:400px;
+    float:left;
+    margin-right: 100px;
+    border-top: none;
+}
+.analysis th{
+    padding-bottom: 10px;
+}

@@ -1,0 +1,84 @@
+
+.content{
+    padding-top:100px;
+    margin-bottom:30px;
+}
+.content input{
+    background:none;  
+    outline:none;  
+    border:0px;
+    background: rgb(199, 188, 188);
+    line-height: 25px;
+    /* padding-top:8px;
+    padding-bottom:8px; */
+    margin-right:10px;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.content form{
+    text-align: center;
+}
+
+.content table{
+    border-top:1px solid rgb(117, 12, 138);
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 19px;
+    font-family: 標楷體;
+    color:black;
+    text-align: center;
+
+}
+
+.content th{
+    border-bottom:1px solid rgb(117, 12, 138);
+    color:rgb(117, 12, 138);
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 23px;
+}
+
+.content td{
+    border-top:1px solid;
+    border-bottom: 1px solid;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.newww{
+    width:1450px;
+}
+.newww table{
+    width:1450px;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 20px;
+    margin-left: -90px;
+}
+.newww th{
+    width:150px;
+    font-size: 19px;
+    text-align: center;
+    padding-left: 10px;
+}
+.newww td{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.pass{
+    border:1px solid rgb(199, 188, 188); 
+    width:400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pass input{
+    border:1px solid ;
+    background: none;
+    margin-top: 10px;
+    line-height: 20px;
+} 
