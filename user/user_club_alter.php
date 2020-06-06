@@ -77,7 +77,7 @@
             <div class="intro">
               <h2 class="title">社團資料修改</h2>
             <?php
-                $link = @mysqli_connect('localhost','root', 'S123123S','php_project');
+                $link = @mysqli_connect('localhost','root', '123456','php_project');
                 $info=$_POST["info"];
                 $no=$_POST["no"];
                 $SQLUpdate="SELECT * FROM club WHERE club_id=$no";
