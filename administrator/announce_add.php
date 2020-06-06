@@ -72,7 +72,7 @@
     <?php
         $add = $_POST["add"];
 
-        $link = mysqli_connect('localhost', 'root', 'S123123S','php_project');
+        $link = mysqli_connect('localhost', 'root', '123456','php_project');
 
         if(!is_null($add)){
           echo "<form action='announce_add.php#yo' method='post'>";
