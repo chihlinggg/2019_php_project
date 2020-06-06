@@ -93,7 +93,7 @@
                 $message = $_GET["message"];
                 $ana = $_GET["ana"];
 
-                $link = mysqli_connect('localhost', 'root', 'S123123S','php_project');
+                $link = mysqli_connect('localhost', 'root', '123456','php_project');
 
                 if(!is_null($show)){
                     $filter = "Y";
