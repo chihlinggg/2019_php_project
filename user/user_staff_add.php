@@ -202,7 +202,7 @@
 </div>
 </body>
 <?php
-$link = @mysqli_connect('localhost','root', 'S123123S','php_project');
+$link = @mysqli_connect('localhost','root', '123456','php_project');
 $club=$_COOKIE["club"];
 $check_join=$_POST["check_join"];
 if(isset($check_join)){
