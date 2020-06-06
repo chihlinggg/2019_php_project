@@ -7,7 +7,7 @@
       $club = $_COOKIE["club"];
     }
 
-    $link = @mysqli_connect('localhost','root', 'S123123S','php_project');
+    $link = @mysqli_connect('localhost','root', '123456','php_project');
   
     //如果沒人就跳回去
     $sql = "SELECT count(*) count FROM club_app WHERE club = '$club' AND check_join=''";
