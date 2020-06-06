@@ -95,7 +95,7 @@
                             $place = $_POST["place"];
                             $usetime = $_POST["usetime"];
 
-                            $link = mysqli_connect('localhost', 'root', 'S123123S','php_project');
+                            $link = mysqli_connect('localhost', 'root', '123456','php_project');
 
                             $sql_delete = "DELETE FROM properties WHERE pro_id = $id_delete";
                             $result_delete = mysqli_query($link, $sql_delete);
