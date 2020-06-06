@@ -9,7 +9,7 @@
     $password_new = $_POST["password2"];
     $password_confirm = $_POST["password3"];
     
-    $link = mysqli_connect('localhost', 'root', 'S123123S','php_project');
+    $link = mysqli_connect('localhost', 'root', '123456','php_project');
 
     $identity = $_COOKIE["club"];
 
