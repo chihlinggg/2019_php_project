@@ -138,7 +138,7 @@
             <div class="intro">
                 <h2 class="title">入社申請人資料</h2>
                 <?php
-                    $link = @mysqli_connect('localhost','root', 'S123123S','php_project');
+                    $link = @mysqli_connect('localhost','root', '123456','php_project');
                     $club=$_COOKIE["club"];
                     $SQL = "SELECT * FROM club_app WHERE check_join='' AND club='$club'";
                     
