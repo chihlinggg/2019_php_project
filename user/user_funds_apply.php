@@ -87,7 +87,7 @@
                                         <td align="left"><?php echo $_COOKIE["club"] ?></td>
                                         <td bgcolor='#F0BBFF'>社團人數</td>
                                         <td align="left">
-                                          <?php $link = mysqli_connect('localhost', 'root', 'S123123S','php_project');
+                                          <?php $link = mysqli_connect('localhost', 'root', '123456','php_project');
                                                 $count = "SELECT count(*) stu_count FROM club_app WHERE check_join='Y' AND club='$club'";
                                                 $result=mysqli_query($link,$count);
                                                 $row=mysqli_fetch_assoc($result);
