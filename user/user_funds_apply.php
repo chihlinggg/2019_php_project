@@ -159,7 +159,7 @@
 </body>
 </html>
 <?php
-        $link = mysqli_connect('localhost', 'root', 'S123123S','php_project');
+        $link = mysqli_connect('localhost', 'root', '123456','php_project');
         date_default_timezone_set("Asia/Shanghai");
         $app_date = date("Y/m/d");
         $club = $_COOKIE["club"];
