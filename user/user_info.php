@@ -79,7 +79,7 @@
             <div class="intro">
               <h2 class="title">社團資料</h2>
             <?php
-              $link = @mysqli_connect('localhost','root', 'S123123S','php_project');
+              $link = @mysqli_connect('localhost','root', '123456','php_project');
               $club=$_COOKIE["club"];
 
               //更新
