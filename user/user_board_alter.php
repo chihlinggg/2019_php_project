@@ -112,7 +112,7 @@
                   <div>
                   <?php
                     $no=$_GET["No"];
-                    $link = @mysqli_connect('localhost','root', 'S123123S','php_project');
+                    $link = @mysqli_connect('localhost','root', '123456','php_project');
                     $SQLUpdate="SELECT * FROM announce WHERE announce_id=$no";
                     $result=mysqli_query($link,$SQLUpdate);
                     $row=mysqli_fetch_assoc($result);
