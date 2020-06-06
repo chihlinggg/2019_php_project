@@ -83,7 +83,7 @@
                           <h2 class="title1">經費紀錄</h2>
                           <?php
                                                                
-                                    $link = mysqli_connect('localhost', 'root', 'S123123S','php_project');
+                                    $link = mysqli_connect('localhost', 'root', '123456','php_project');
                                     $club=$_COOKIE["club"];
                                     $sql = "SELECT club, budget,act_name, from_self, app_funding, funding_get,app_date FROM money WHERE club='$club'";
                                     $result = mysqli_query($link, $sql);
