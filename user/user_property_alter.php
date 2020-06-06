@@ -107,7 +107,7 @@
                         <?php
                         $pro_id = $_GET["pro_id"];
 
-                        $link = mysqli_connect('localhost', 'root', 'S123123S','php_project');
+                        $link = mysqli_connect('localhost', 'root', '123456','php_project');
                     
                         $sql = "SELECT pro_id, pro_name, quantity, place, usetime, startdate, department, depository FROM properties WHERE pro_id = $pro_id";
                         $result = mysqli_query($link, $sql);
