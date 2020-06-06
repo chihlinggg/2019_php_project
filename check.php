@@ -9,7 +9,7 @@
     $account = $_POST["account"];
     $password = $_POST["password"];
 
-    $link = mysqli_connect('localhost', 'root', 'S123123S','php_project');
+    $link = mysqli_connect('localhost', 'root', '123456','php_project');
 
     $sql_confirm = "SELECT * FROM account WHERE account = '$account' AND password = '$password'";
     $result = mysqli_query($link, $sql_confirm);
