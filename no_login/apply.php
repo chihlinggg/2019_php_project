@@ -37,7 +37,7 @@
             <td>      
             <select name="club">
                   <?php
-                    $link = mysqli_connect('localhost', 'root', 'S123123S','php_project');    
+                    $link = mysqli_connect('localhost', 'root', '123456','php_project');    
                     $sql = "SELECT club FROM account where club!='管理員'";        
                     if($result = mysqli_query($link, $sql)){
                         while($row = mysqli_fetch_assoc($result)){
@@ -86,7 +86,7 @@
     </div>
   </div> 
   <?php
-    $link = @mysqli_connect('localhost','root', 'S123123S','php_project');
+    $link = @mysqli_connect('localhost','root', '123456','php_project');
     $club=$_POST["club"];
 
     if(isset($club)){
