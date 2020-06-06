@@ -38,7 +38,7 @@
         <p>最新消息</p>
         <div class="menu">
           <?php
-            $link = mysqli_connect('localhost', 'root', 'S123123S','php_project');
+            $link = mysqli_connect('localhost', 'root', '123456','php_project');
   
             $sql = "SELECT date, club, title, website FROM announce WHERE check_ann='Y' ORDER BY date DESC";
   
@@ -57,7 +57,7 @@
               <div class="select">
                 <select name="club">
                   <?php
-                    $link = mysqli_connect('localhost', 'root', 'S123123S','php_project');    
+                    $link = mysqli_connect('localhost', 'root', '123456','php_project');    
                     $sql = "SELECT club FROM account";        
                     if($result = mysqli_query($link, $sql)){
                         while($row = mysqli_fetch_assoc($result)){
