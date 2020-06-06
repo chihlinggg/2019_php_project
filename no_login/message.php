@@ -1,5 +1,5 @@
 <?php
-    $link = @mysqli_connect('localhost','root', 'S123123S','php_project');
+    $link = @mysqli_connect('localhost','root', '123456','php_project');
     
     $club=$_POST["club"];
     $message=$_POST["message"];
