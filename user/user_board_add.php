@@ -176,7 +176,7 @@
 </body>
 </html>
 <?php
-        $link = @mysqli_connect('localhost','root', 'S123123S','php_project');
+        $link = @mysqli_connect('localhost','root', '123456','php_project');
         $club=$_COOKIE["club"];
         $title=$_POST["title"];
         $website=$_POST["website"];
