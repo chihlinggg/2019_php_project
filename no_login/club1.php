@@ -79,7 +79,7 @@
               <div class="club-content"> 
                   <span class="close1">&times;</span> 
                   <?php
-                  $link = @mysqli_connect('localhost','root', 'S123123S','php_project');
+                  $link = @mysqli_connect('localhost','root', '123456','php_project');
                   $SQL = "SELECT * FROM club WHERE club='吉他社'";
                   $result=mysqli_query($link,$SQL);
                   $row=mysqli_fetch_assoc($result);
