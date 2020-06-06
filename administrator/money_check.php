@@ -7,7 +7,7 @@
       $club = $_COOKIE["admin"];
     }
 
-    $link = mysqli_connect('localhost', 'root', 'S123123S','php_project');
+    $link = mysqli_connect('localhost', 'root', '123456','php_project');
 
     $act_id = $_POST["act_id"];
     $funding_get = $_POST["funding_get"];
