@@ -12,7 +12,7 @@
     $password_confirm = $_POST["password3"];
     $club = $_COOKIE["admin"];
 
-    $link = mysqli_connect('localhost', 'root', 'S123123S','php_project');
+    $link = mysqli_connect('localhost', 'root', '123456','php_project');
 
     $sql_password = "SELECT password FROM account WHERE club = '$club'";
     $result = mysqli_query($link, $sql_password);
